@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>처음 행군 할 때 그 느낌...</title>
+</head>
+<body>
+    <div class="time"> 
+        <h1></h1>
+        <h2></h2>
+    </div>
+   <!--------------시간---!-->
+    <form class="hidden" id="login-form">
+        <input 
+        required 
+        id="login-text" 
+        type="text" 
+        maxlength="6" 
+        placeholder="이름을 적어주세요." 
+        />
+        <input id="login-submit" type="submit" value="선택" />
+        <h6  id="greeting" class="hidden"></h6>
+    </form>
+   <!--------------로그인---!-->
+   <div class="list">
+   <form id="todo-form">
+    <input type="text" placeholder="당신의 계획을 적으세요" required />
+  </form>
+  <ul id="todo-list"></ul>
+    </div>
+    <!-----------------리스트!-->
+
+   <div id="weather">
+    <span></span>
+    <span></span>
+  </div>
+    <!--------------날씨---!-->
+    <!-----------------!-->
+    <script src="back.js"></script>
+    <script src="time.js"></script>
+    <script src="login.js"></script>
+    <script src="doli.js"></script>
+    <script src="weather.js"></script>
+</body>
+</html>
